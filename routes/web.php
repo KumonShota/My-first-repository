@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Rote::get('/posts')
+Route::get('/posts', [PostController::class, 'index']);
