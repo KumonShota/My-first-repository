@@ -17,9 +17,3 @@ use App\Http\Controllers\PostController;
 Route::get('/', function () {
     return view('welcome');
 });
-
-<<<<<<< HEAD
-=======
-
->>>>>>> e722705 (Merge remote-tracking branch 'origin/main' into dev_basis02)
-Route::get('/posts', [PostController::class, 'index']);
